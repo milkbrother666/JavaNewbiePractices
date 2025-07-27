@@ -37,14 +37,6 @@ public class GenPassworder {
     }
 
     public GenPassworder(Integer total_length, Integer max_number_count, Integer min_number_count, Integer max_alpha_count, Integer min_alpha_count, Integer max_symbols_count, Integer min_symbols_count, String symbols_string) {
-//        this.total_length = total_length;
-//        this.max_number_count = max_number_count;
-//        this.min_number_count = min_number_count;
-//        this.max_alpha_count = max_alpha_count;
-//        this.min_alpha_count = min_alpha_count;
-//        this.max_symbols_count = max_symbols_count;
-//        this.min_symbols_count = min_symbols_count;
-//        this.symbols_string = symbols_string;
         total_length = 12;
         max_number_count = (int) Math.round(total_length * 0.4);
         min_number_count = max_number_count;
