@@ -1,2 +1,2 @@
 # JavaNewbiePractices
-My java codes (newbie : -) )
+My java codes ( newbie : -) )
